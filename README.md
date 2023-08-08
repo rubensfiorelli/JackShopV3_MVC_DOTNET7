@@ -1,5 +1,19 @@
 # JackShopV3
 
+Tecnologias utilizadas
+ASP.NET Core com .NET 7
+- MySql 8
+- Swagger
+- Injeção de Dependência
+- Padrão Repository
+- Unit of Work
+- AutoMapper 12
+
+Padroes e arquitetura que procurei seguir:
+ - DDD
+ - Clean Architeture
+ - Alem de escrever o codigo TODO em ingles
+
 Projeto simples em DotNet 7 - CleanArch - um projeto CRUD usando classes ricas e Dto para transporte de dados entre as camadas.
 
 Não é MVC pos nao temos apenas 3 camadas e sim 6 camadas;
