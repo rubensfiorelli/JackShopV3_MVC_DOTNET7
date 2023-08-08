@@ -23,4 +23,8 @@ Estou usando o AutoMapper apenas para mostrar como é simples a implementação 
 
 estou usando tb o padrao Unit of Work para controlar a gravação dos dados com menos problemas de "lixo" na minha base MySql. Não sou especialista em frontEnd por isso o meu front eh tao pobre.
 
-projeto de aula desenvolvido por Marcoratti (excelente professor). Agradeco pelas aulas fundamentais em C# e Dotnet
+projeto base da minha aula desenvolvido por Marcoratti (excelente professor). Por minha conta foram agregadas algumas funcionalidades que considero melhores e o tema da aula tb foi substituido. De uma simples papelaria para um produto do mundo real extremamente conhecido como o Whiskey Jack Daniels. 
+
+Agradeco pelas aulas fundamentais em C# e Dotnet(apesar de muitas aulas ainda serem em DotNet 5, 6 ate msm 3) onde hoje estamos usando Net 7(100% estavel) e em pouco tempo chega o Net 8 LTS. 
+
+Muitos professores insistem nas plataformas muito desatualizas, até msm ja sem suporte como é o caso do Net 5 e anteriores
