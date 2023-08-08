@@ -11,7 +11,9 @@ Não é MVC pos nao temos apenas 3 camadas e sim 6 camadas;
 5 - Data
 6 - CrossCutting
 
-Onde as injecoes de depencia estao na CrossCutting e minha camada de APi só tem acesso a ela (crosscutting), evitando expor meus dados e dominio aos meus clientes;
+Onde as injecoes de dependencia estao na CrossCutting e minha camada de APi só tem acesso a ela (crosscutting), evitando expor meus dados e dominio aos meus clientes;
+
+projeto esta totalmente desacoplado, bastando mudar o framework usado no meu caso adoro o EF, mas o desenvolevedor pode usar um Dapper por exemple..ou mesmo um DAO com poucas mudanças tanto no código, quanto na base de dados utilizada, que no meu caso esta sendo o MySql, pois considero mais "leve" para rodar na minha maquina pessoal (não gosto do SQLExpress) ainda considero pesado para ser um "Express"
 
 Obs.: Acabei nao implementando as validacoes no na minha camada de dominio, por ter considerado esse projeto de aula como concluido. Afinal eh um projeto de aula.
 
