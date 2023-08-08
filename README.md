@@ -19,6 +19,8 @@ Mas no projeto real, JAMAIS se esqueça que validaçoes e regras de negocio sao 
 
 Os dados são tranportados todos por Dtos desde os meus repositorios ate o front. Nao implementei o CQRS nesse projeto de estudo, pois as aulas estavam usando o MediatR e quero agora continuar o projeto fazendo o CQRS na unha, sem uso de frameworks de terceiros pelo desempenho e para nao ficar dependente de 1 fornecedor de framework que amanha ou depois pode simplesmente descontinuar o produto.
 
+Estou usando o AutoMapper apenas para mostrar como é simples a implementação do mesmo, mas lembro que é perfeitamente possivel trabahar com Dtos s/ AutoMapper. Outra tecnica que estou usando é jogar os dados de retorno para a APi / WebUI em classes RECORD, alem de simples e rapidas, elas tem a grande vantagem de ser imutaveis. Ou seja jogou os dados la..eles nao mudarao até a proxima instancia das mesmas.
+
 estou usando tb o padrao Unit of Work para controlar a gravação dos dados com menos problemas de "lixo" na minha base MySql. Não sou especialista em frontEnd por isso o meu front eh tao pobre.
 
 projeto de aula desenvolvido por Marcoratti (excelente professor). Agradeco pelas aulas fundamentais em C# e Dotnet
